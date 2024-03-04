@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dylangavilan.voltotest",
+      "plugins": [
+        "@react-native-google-signin/google-signin"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "95dca02e-bc30-4ac1-a11f-d15420203cef"
+      }
+    },
+    "scheme": "volto-test"
   }
 }
